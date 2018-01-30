@@ -1,0 +1,79 @@
+<toolSet name="External Tools">
+  <tool name="Brazil Build" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apollo\env\SDETools\bin\brazil-build.cmd" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Brazil Clean" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apollo\env\SDETools\bin\brazil-build.cmd" />
+      <option name="PARAMETERS" value="clean" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Sync Brazil Workspace" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apollo\env\SDETools\bin\brazil.cmd" />
+      <option name="PARAMETERS" value="ws sync" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Clean Brazil Workspace" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apollo\env\SDETools\bin\brazil.cmd" />
+      <option name="PARAMETERS" value="ws clean" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Brazil Build All" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apollo\env\SDETools\bin\brazil-recursive-cmd.cmd" />
+      <option name="PARAMETERS" value="--allPackages -- brazil-build" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Brazil Clean All" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\apollo\env\SDETools\bin\brazil-recursive-cmd.cmd" />
+      <option name="PARAMETERS" value="--allPackages -- brazil-build clean" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Oxygen 18 Debug" showInMainMenu="true" showInEditor="false" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Oxygen\Oxygen XML Editor 18\oxygen-debug.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Oxygen/Oxygen XML Editor 18" />
+    </exec>
+  </tool>
+  <tool name="Oxygen 17 Debug" showInMainMenu="true" showInEditor="false" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Oxygen\Oxygen XML Editor 17\oxygen-debug.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Oxygen/Oxygen XML Editor 17" />
+    </exec>
+  </tool>
+  <tool name="Oxygen 16 Debug" showInMainMenu="true" showInEditor="false" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Oxygen\Oxygen XML Editor 16\oxygen-debug.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Oxygen/Oxygen XML Editor 17" />
+    </exec>
+  </tool>
+  <tool name="Oxygen 19 Debug" showInMainMenu="true" showInEditor="false" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Oxygen\Oxygen XML Editor 19\oxygen-debug.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Oxygen/Oxygen XML Editor 19" />
+    </exec>
+  </tool>
+  <tool name="Git Bash" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\Git\bin\sh.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

@@ -1,0 +1,11 @@
+<application>
+  <component name="DevSyncSettings">
+    <option name="justDoIt" value="true" />
+  </component>
+  <component name="RemoteHost">
+    <option name="host" value="strohma.aka.corp.amazon.com" />
+    <option name="port" value="22" />
+    <option name="privateKey" value="-----BEGIN RSA PRIVATE KEY-----&#10;MIIEpAIBAAKCAQEA5kg9KOYNdrraM9pGPyGaGFZT6aWaY0zI/BE4gH9RvhpXj8PN&#10;jvMBNkZLS039hyV/NmDpvaWAItGYVDUeigIK1DTG760wh3g17HNNWXDtl2OF2w9f&#10;lDAeviZAD2TSmcePh4TttwjdxMCgoMCpwIhIws0fnrp9A+nsOeiUDBjuaDExmgk+&#10;9LO+NSm9cBUa1HSTyOUGJONgSSxgiZWMVxUdXtXmy3HjNvBoT9uo4s/02JH/6xlB&#10;Z80PWBqwPniA+UXS6IG2K3wR4l93O/+uh8vDV5H6KhiPVFQ4nUb7kq0X/V4MIG2K&#10;7m65BpvBhYVsmRkD8OCA3SV4CnTmSetlMG9CBQIDAQABAoIBAQCUP+dXwBrk19AH&#10;17qng+tfRZxJ67njuZgeZru4Rb8LIoxCWmyoXZrnJQPuG+xep+4oxOVVmQlP4R0v&#10;AO+DK2NrT/rOa/G1FNeqPGSMcx4R+xk+eLwwe3YfNiLBhkfqhkXJmfMrhYK32sbO&#10;Fppx/4rQFhwIJMi8z0ir0yYUT6yT1/bErXNnto4XxEsA9ULb5naKcZqt/AX0RHgQ&#10;aoX6nxgw25BLhTT5bWbuYAslYMvn3dzE+cW442+TAVtrBEiA7ghJtr9T28XyEU+B&#10;5VQEyXmVGrMouBeKGlxx66CEHMbaEmmM1EPbX9KEIRKJzYRpbDoFPyAPY8odQEzq&#10;QRalZLQhAoGBAP4H8RsY3/CgI3Si/JNhYEpBTyWF3P/UT0jrlf0gyFFPVke69/Th&#10;0lBLJR6R9KhDAlr1RXmgVv/und7rgabsO8kvT2Dtc8ipBkc4zhr7HX7gjIKk2qqS&#10;Bzl7nc6GPfBpXDCtlXwjlQwDL594FsloOwq3FF3r8RrreLAYc+KjBitJAoGBAOgR&#10;LHjlT7MQh3Qr0PNAnNlaASJqR9plbMvdA2XZHNbvHfMVIIumiXiDddHTmLYKvBw7&#10;odoAmWbD6HSC2Ipsh08rTfVuNwUtJRGt11IXUT38u3n2k+m7t81SCzbeGx++6POr&#10;T4Nu0wOkNJFKlm8QadeaIezQ0P2qI1dG19crOMTdAoGAQvDo0lEtwgUREs1YbaX9&#10;b9Ph/WtXH3tdIUQjlD6tSu/zNpfIe5l+iHYk4/dmV2jBGCMGGdTs2CiTJYk98zTR&#10;VGTJMCuilUAlTWNkvKtrzGFz5YF3tfchPD6dCS1K6S16g8FaYQonXrEAPa+xoYV7&#10;+YjhLxbbxFJEzXLEJvb6yzECgYBOGqGWGs9lG9YK4khT5lYjzOf+1jhSp7ojLsJa&#10;/+R17kptKpomhilUVyJLOWT3N8ux0NwbTAJVFPBibjtE81vi6Fc3mB2Kb3Q/a/vB&#10;FDnym+HZHYUQsG4e+1Ls53nHiHBMukZrnNwGKLjMgYb54FNPDgAG/Qypox573Er+&#10;jvxvPQKBgQDwtlqww0Ytgb0uOHzVDNAeVHUa7aAwNxdSZ1dQLM0Fh7srMsuClzXL&#10;rQxhWSY9di199EmEAB4L8XN+aUkreCbDULgtmEkpGq/I8FoZbS4aWcihm1zDYMpd&#10;0baeo6Xz6E83V0pzMRkOMkYcj3gmNS9WmZTgK8+t5IwRH6oq+NRaNg==&#10;-----END RSA PRIVATE KEY-----" />
+    <option name="user" value="strohma" />
+  </component>
+</application>
